@@ -1,6 +1,5 @@
 import React from 'react'
 
-function Greet(){
-  return <h1>Hello Word!</h1>
+const Greet = () => <H1>Hello Word in ES6</H1>
 }
 export default Greet
