@@ -1,5 +1,7 @@
 import React from 'react'
 
-const Greet = () => <h1>Hello Word in ES6</h1>
+const Greet = (props) => {
+  return <h1>Hello Word {props.name}</h1>
+}
 
 export default Greet
