@@ -8,7 +8,12 @@ class Message extends Component{
     }
   }
   render(){
-    return <h1>{this.state.message}</h1>
+    return(
+      <div>
+        <h1>{this.state.message}</h1>
+        <button onClick={()=>this.change.Message()}>Subscrible</button>
+      </div> 
+    )
   }
 }
 export default Message 
