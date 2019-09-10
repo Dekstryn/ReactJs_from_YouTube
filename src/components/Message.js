@@ -7,11 +7,17 @@ class Message extends Component{
       message: "Welcome VIsitor"
     }
   }
+
+  changeMessage(){
+    this.setState({
+      message: "Thank You"
+    })
+  }
   render(){
     return(
       <div>
         <h1>{this.state.message}</h1>
-        <button onClick={()=>this.change.Message()}>Subscrible</button>
+        <button onClick={()=>this.changeMessage()}>Subscrible</button>
       </div> 
     )
   }
