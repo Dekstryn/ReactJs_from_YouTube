@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class counter extends Component {
+class Counter extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class counter extends Component {
   }
 }
 
-export default counter
+export default Counter
