@@ -4,7 +4,7 @@ class ClassClick extends Component {
   render() {
     return (
       <div>
-        
+        <button>Click me</button>
       </div>
     )
   }
